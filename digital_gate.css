@@ -1,0 +1,69 @@
+table.wikitable,.mw_metadata{
+    background:#fff;
+    margin-left:auto; 
+    margin-right:auto;	
+    border:1pt solid #aaa;
+    border-collapse:collapse;
+    font-size:10pt
+}
+table.wikitable > caption,.mw_metadata caption{
+    padding:5px;
+    font-size:10pt
+}
+
+table.wikitable > tr > th, table.wikitable > * > tr > th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+table.wikitable > tr > th,table.wikitable > tr > td,table.wikitable > * > tr > th,table.wikitable > * > tr > td,.mw_metadata th,.mw_metadata td{
+    background:#eaecf0 !important;
+    color:#000 !important;
+    border:1pt solid #a2a9b1;
+    padding:0.4em 0.6em
+}
+table.wikitable > tr > th,table.wikitable > * > tr > th,.mw_metadata th{
+    text-align:center
+}
+table.listing,table.listing td{
+    border:1pt solid #000;
+    border-collapse:collapse
+}
+
+div.thumbinner{
+    border:1px solid #c8ccd1;
+    padding:3px;
+    background-color:#f8f9fa;
+    font-size:94%;
+    text-align:center;
+    overflow:hidden
+}
+html .thumbimage{
+    background-color:#fff;
+    border:1px solid #c8ccd1
+}
+html .thumbcaption{
+    border:0;
+    line-height:1.4em;
+    padding:3px;
+    font-size:94%;
+    text-align:left
+}
+
+.flex-container{
+    margin: 10 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container .column{
+    padding: 10px;
+	max-width: 90px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
+.flex-container .column.bg-alt{
+    background: #b4bac0;
+}
